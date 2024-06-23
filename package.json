@@ -1,0 +1,15 @@
+{
+  "name": "api-alurageek",
+  "version": "1.0.0",
+  "description": "Products for Alura Geek fake store api",
+  "main": "index.js",
+  "scripts": {
+    "start": "node api/server.js"
+  },
+ 
+  "dependencies": {
+    "cors": "^2.8.5",
+    "json-serve": "^0.1.0",
+    "json-server": "^0.17.3"
+  }
+}
