@@ -154,10 +154,4 @@ Create a new file named [**_vercel.json_**](./vercel.json)
 }
 ```
 
-# Don't forget to commit & push your changes 🐣
 
-Go to your Vercel account, connect a new project with your repository, and deploy it💙
-
-## You must be patient
-
-It could take a couple of minutes to finally work. ⏰🥹
