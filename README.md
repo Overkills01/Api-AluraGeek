@@ -1,9 +1,6 @@
-## Deploy JSON Server to Vercel
+##Demo from this repository:
+https://api-alura-geek-tau.vercel.app/
 
-A template for deploying [JSON Server](https://github.com/typicode/json-server) on [Vercel](https://vercel.com), allowing you to run a fake REST API online 🐣!
-
-Demo from this repository:
-https://alurageek-api.vercel.app/
 
 ### How to use (resume)
 
@@ -18,25 +15,28 @@ https://alurageek-api.vercel.app/
 
 ```json
 {
-  "product": [
+  "products": [
     {
-      "img": "https://www.claroshop.com/c/star-wars-day/img/categorias/TAZAS_CATEGORIAS_STAR_WARS.png",
-      "name": "Trooper mug",
-      "price": "$60.00",
-      "description": "Trooper helmet mug",
-      "category": "starwars",
-      "id": 1
+      "id": "ae84",
+      "name": "Play",
+      "price": "150",
+      "image": "https://i.pinimg.com/originals/43/60/bc/4360bcc6293fa90c968bd65db3930266.jpg"
     },
     {
-      "img": "https://cdn1.coppel.com/images/catalog/mkp/1773/5000/17733590-1.jpg",
-      "name": "Vader Funko",
-      "price": "$60.00",
-      "description": "Collectible Funko of Darth Vader",
-      "category": "starwars",
-      "id": 2
+      "id": "921e",
+      "name": "Sega",
+      "price": "98",
+      "image": "https://asset.conrad.com/media10/isa/160267/c1/-/en/1602624_RB_00_FB/image.jpg"
+    },
+    {
+      "id": "c0e6",
+      "name": "Nintendo",
+      "price": "148",
+      "image": "https://i5.walmartimages.com/asr/74eced06-e77a-44f8-b5bf-f93e3d9c69d2_1.1f619046c1c64fec1c03ee5848e56ced.jpeg"
     }
   ]
 }
+
 ```
 
 ## Build It Yourself
