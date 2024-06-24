@@ -37,6 +37,7 @@ https://api-alura-geek-tau.vercel.app/
   ]
 }
 
+
 ```
 
 ## Build It Yourself
@@ -110,7 +111,6 @@ Create a **_db.json_** file and add your own data.
 Additionally, you'll need to add a new [Folder called **_api_**](./api/) and, inside it, this [**server.js**](./api/server.js) file:
 
 ```javascript
-// See https://github.com/typicode/json-server#module
 const jsonServer = require("json-server");
 const server = jsonServer.create();
 const router = jsonServer.router("db.json");
